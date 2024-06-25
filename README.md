@@ -23,7 +23,7 @@ uvicorn main:app --reload
 ```
 ### 🧪 4. Test the endpoint:
 
-Send a POST request to http://127.0.0.1:8000/tokenize (/pos_tag, /ner) with a JSON body containing the text to be summarized.
+Send a POST request to http://127.0.0.1:8000/tokenize, http://127.0.0.1:8000/pos_tag, http://127.0.0.1:8000/ner with a JSON body containing the text to be summarized.
 
 Example request:
 
