@@ -18,7 +18,7 @@ pip install fastapi uvicorn pydantic nltk numpy
 
 
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 
 ```
 ### 🧪 4. Test the endpoint:
